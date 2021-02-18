@@ -10,7 +10,7 @@ festékmennyiség=(((kör területe+ hengerszerű alakzat területe) * 0,005 lit
 ```
 (mivel 5 ml festék kerül egy négyzetcentiméter felületre, 10%-al többet kell rakni a gépbe, hogy megfelelően működjön).     
 Készítse el a PaintedGlasses osztályt, amelynek két ismert adata a kör sugara és a pohár magassága, valamint a poharak darabszáma. Az osztálynak legyen egy requiredPaintQuantity tulajdonsága, amely egy lekérhető tulajdonságú adat, és megadja a szükséges festék mennyiséget.     
-A segédszámítások elvégzésére használjon egy kör (circle) osztályt, amely sugarával meghatározható, és amelynek két leolvasható metódusa a kör területe (area) és a kör kerülete (district).    
+A segédszámítások elvégzésére használjon egy kör (circle) osztályt, amely sugarával meghatározható, és amelynek két leolvasható tulajdonságot a kör területe (area) és a kör kerülete (district).    
 
 ![Henger felszíne](https://cms.sulinet.hu/get/d/c5ce84d6-1630-408b-ab4a-b1653a8a2484/1/6/b/Normal/c06aa006.jpg)
 
@@ -26,11 +26,11 @@ Console.WrtiteLine(pg);
 ```
 
 
-Kimenetek:
-A kiírások előtt a számított eredményeket egy tizedes jegyre kerekítse.
-1.
-Console.WriteLine(c); kód esetén:
-A kör sugara 2.5 cm, a kör kerüte xx.xx cm, a területe xx.xx nétgyzetcentiméter.
-2.
-Console.WrtiteLine(pg); kód esetén:
-50 db, 4 cm magas pohár szükséges festékmennyisége xx.xx liter.
+Kimenetek:    
+A kiírások előtt a számított eredményeket egy tizedes jegyre kerekítse.    
+1.  
+Console.WriteLine(c); kód esetén:  
+A kör sugara 2.5 cm, a kör kerüte xx.xx cm, a területe xx.xx nétgyzetcentiméter.   
+2.   
+Console.WrtiteLine(pg); kód esetén:   
+50 db, 4 cm magas pohár szükséges festékmennyisége xx.xx liter.   
