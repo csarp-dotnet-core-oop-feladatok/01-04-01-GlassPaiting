@@ -19,8 +19,8 @@ Teszt kód:
 ```
 double glassesHeight = 4; 
 double numberOfGlasses = 50; 
-PaintedGlasses pg = new PaintedGlasses(radius, glassesHeight, numberOfGlasses); 
-Console.WriteLine(pg); 
+Circle c = new Circle(2.5);
+Console.WriteLine(c);
 PaintedGlasses pg=new PaintedGlasses(c,glassesHeight,numberOfGlasses) 
 Console.WrtiteLine(pg);
 ```
